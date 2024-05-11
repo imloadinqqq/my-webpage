@@ -1,7 +1,35 @@
+/* Reset CSS */
+body {
+    font-family: 'Poetsen One', cursive;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #000;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header a {
+    color: #fff;
+}
+header a:hover {
+    color: #fff;
+}
+/* General CSS */
 @font-face {
     font-family: "Poetsen One";
     src: url("../fonts/PoetsenOne-Regular.ttf");
 }
+/* Homepage CSS */
 .homepage h1 {
     font-family: 'Poetsen One', cursive;
     text-align: center;
@@ -11,4 +39,30 @@
 .homepage .list {
     text-align: center;
     font-size: 40px;
+}
+
+/* About page CSS */
+.about h1 {
+    font-family: 'Poetsen One', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+}
+.about h3 {
+    font-family: 'Poetsen One', cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+.about button {
+    font-family: 'Poetsen One', cursive;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: #333;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
