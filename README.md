@@ -3,4 +3,5 @@ Personal webpage
 
 # TODO
 
-Deploy to Heroku
+~~Deploy to Heroku~~
+Get application to display (currently not working)
